@@ -14,7 +14,7 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          {/* //I am 3rd year(5th Semester) Information Technology student studying at Vellore Institute of Technology a Highly-motivated person with desire to take on new challenges. Strong work ethic, adaptability, and exceptional interpersonal skills. Adept at working effectively unsupervised and quickly mastering new skills. */}
+         
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />Highly-motivated person with desire to take on new challenges
               <i>
-                <b > Strong work ethic, adaptability, and exceptional interpersonal skills. Adept at working effectively unsupervised and quickly mastering new skills </b>
+                <b> Strong work ethic, adaptability, and exceptional interpersonal skills. Adept at working effectively unsupervised and quickly mastering new skills </b>
               </i>
               <br />
               <br />
@@ -45,7 +45,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js</b>
+                <b className="purple">React.js</b>
               </i>
             </p>
           </Col>
