@@ -1,0 +1,44 @@
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 20px, 0);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
+  .animate-card {
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  .quote-card-view {
+    border: none;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    background: linear-gradient(135deg, #f3f3f3, #ffffff);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .quote-card-view:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  .purple {
+    color: #6a1b9a;
+  }
+  .card{
+    background-color: #c770f0;
+  }
+  .about-activity {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .about-activity:hover {
+    transform: translateX(10px);
+  }
+  
